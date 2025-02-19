@@ -1,5 +1,4 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
+it('my first test', () => {
+  cy.visit('/')
+  cy.contains('A/B Testing').click()
 })
