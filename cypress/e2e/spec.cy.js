@@ -1,4 +1,4 @@
 it('my first test', () => {
   cy.visit('/')
-  cy.contains('A/B Testing').click()
+  cy.get(':nth-child(1) > a')
 })

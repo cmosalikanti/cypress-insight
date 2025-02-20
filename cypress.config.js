@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://the-internet.herokuapp.com/',
-    viewportHeight: 550,
+    viewportWidth: 1000,
     viewportHeight: 660,
     experimentalStudio: true
   },
