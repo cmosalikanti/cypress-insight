@@ -21,3 +21,19 @@ Run all the tests on Chrome (headed)
 ```
 npx cypress run --browser chrome --headed
 ```
+
+## Advantages of using TypeScript
+1. It can guide in helping less errors in the code.
+2. It can help by auto-suggesting different command arguements.
+
+## Useful commands
+#### Global installation of typescript
+```
+npm i typescript -g
+```
+The above will enable to issue '>tsc' commands at the terminal.
+
+#### Check for any compilation errors in the project
+```
+tsc --noEmit
+```
