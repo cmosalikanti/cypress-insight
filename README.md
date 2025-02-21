@@ -37,3 +37,14 @@ The above will enable to issue '>tsc' commands at the terminal.
 ```
 tsc --noEmit
 ```
+#### Define "lint" command in the "scripts" inside package.json
+```
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+```
+
+and we can do something like,
+```
+npm run lint
+```
